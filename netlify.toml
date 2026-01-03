@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  # OJO: Asegúrate que 'tech-inventory' es el nombre real de tu carpeta en dist
+  # Si tu proyecto se llama diferente en angular.json, cambia esta línea.
+  publish = "dist/tech-inventory/browser"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
