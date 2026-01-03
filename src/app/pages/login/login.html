@@ -1,0 +1,24 @@
+<div class="login-container">
+    <div class="login-card">
+        <h2>TechInventory Login</h2>
+
+        <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" formControlName="email" placeholder="admin@test.com">
+            </div>
+
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" formControlName="password" placeholder="123456">
+            </div>
+
+            @if (loginError) {
+            <p class="error">Credenciales incorrectas</p>
+            }
+
+            <button type="submit" [disabled]="myForm.invalid">Ingresar</button>
+        </form>
+    </div>
+</div>
