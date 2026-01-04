@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Poppins', sans-serif; /* Aquí aplicamos la fuente */
+    margin: 0;
+    background-color: #f0f2f5; /* Un fondo gris suave se ve mejor */
+}

@@ -16,7 +16,7 @@ import { SidebarComponent } from '../../components/sidebar/sidebar';
   styles: [`
     .dashboard-layout { display: flex; height: 100vh; }
     .sidebar { width: 250px; background: #2c3e50; color: white; }
-    .content { flex: 1; padding: 20px; overflow-y: auto; background: #ecf0f1; }
+    .content { flex: 1; padding: 20px; overflow-y: auto; background: #2F70FA; }
   `]
 })
 export class DashboardComponent {}

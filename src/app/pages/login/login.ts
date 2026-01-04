@@ -1,4 +1,3 @@
-// Importa Component (decorador) para crear componentes e inject para inyección de dependencias
 import { Component, inject } from '@angular/core';
 
 // Importa herramientas para formularios reactivos

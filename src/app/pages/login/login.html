@@ -1,9 +1,9 @@
 <div class="login-container">
+
     <div class="login-card">
-        <h2>TechInventory Login</h2>
+        <h2>Tech-Inventory Login</h2>
 
         <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
-
             <div class="form-group">
                 <label>Email</label>
                 <input type="email" formControlName="email" placeholder="admin@test.com">
@@ -11,7 +11,7 @@
 
             <div class="form-group">
                 <label>Password</label>
-                <input type="password" formControlName="password" placeholder="123456">
+                <input type="password" formControlName="password" placeholder="******">
             </div>
 
             @if (loginError) {
@@ -21,4 +21,10 @@
             <button type="submit" [disabled]="myForm.invalid">Ingresar</button>
         </form>
     </div>
+
+    <div class="welcome-section">
+        <h1>Bienvenido de nuevo</h1>
+        <p>Gestiona tu inventario de forma eficiente.</p>
+    </div>
+
 </div>
